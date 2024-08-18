@@ -12,12 +12,24 @@ This project contains two demos. This first demo is a web application for perfor
 </table>
 
 ## How to run
+**Step 1:** Clone the repository:
 ```
-conda create --name myenv python=3.9
-conda activate myenv
-pip install -r requirements.txt
 git clone https://github.com/kingback156/Audio-analyse.git
 ```
+**Step 2:** Please enter the following command in conda's virtual environment;
+```
+conda create --name analysis python=3.9
+conda activate analysis
+pip install -r requirements.txt
+```
+**Step 3:** Then, start the program with the following command：
+```
+python app.py
+```
+Open your browser and visit "http://127.0.0.1:5000" to access the application;
+
+**Step 4:** After entering the homepage, click "Let's try it!" (as shown in Figure 1 above) to enter the analysis interface.
+
 ## A few notes
 <img width="478" alt="Snipaste_2024-07-13_20-01-21" src="https://github.com/user-attachments/assets/d31abd3c-bc28-4e07-8341-2c79ed45ce0e">
 
