@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Audio Analysis</title>
+    <link rel="stylesheet" href="static/styles.css">
+</head>
+<body>
+
+<div class="wrapper">
+    <header>
+        <nav>
+            <a href="#contact" class="contact-button">Audio Analysis Demos</a>
+        </nav>
+    </header>
+
+    <main class="container">
+        <div class="hero">
+            <div class="hero-text">
+                <h1>Amplitude Analysis</h1>
+                <p>This project is a web application for performing amplitude analysis on audio files. It uses Flask as the web server and Dash for the interactive data visualization components. The application allows users to upload audio files, visualize their amplitude, select regions for DFT (Discrete Fourier Transform) analysis, and view inverse DFT (IDFT) plots.</p>
+            </div>
+            <img src="static/image/right1.png" alt="Person" class="hero-image">
+            <a href="/amplitude.html"><button>Let's try it !</button></a>
+        </div>
+    
+        <div class="hero">
+            <div class="hero-text">
+                <h1>Spectrogram Viewer</h1>
+                <p>This project is a web application for visualizing audio spectrograms. It uses Flask as the web server and Dash for the interactive data visualization components. The application allows users to upload audio files, view their spectrograms, and interact with features such as moving a line in sync with audio playback, clipping sections of the audio, and generating spectrograms for these clipped segments. Users can also play back both the original and clipped audio directly within the application.</p>
+            </div>
+            <img src="static/image/right2.png" alt="Person" class="hero-image">
+            <a href="/spectrogram.html"><button>Let's try it !</button></a>
+        </div>
+    </main>
+
+    <footer>
+        <p>Audio amplitude and spectrogram analysis application</p>
+    </footer>
+</div>
+
+</body>
+</html>
