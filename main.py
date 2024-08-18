@@ -533,6 +533,7 @@ app2.clientside_callback(
     function(n_clicks) {
         var audio = document.getElementById('audio-element');
         if(audio) {
+            audio.currentTime = 0;
             audio.play();
         }
         return '';
@@ -547,6 +548,7 @@ app2.clientside_callback(
     function(n_clicks) {
         var audio = document.getElementById('clipped-audio-element');
         if(audio) {
+            audio.currentTime = 0;
             audio.play();
         }
         return '';
