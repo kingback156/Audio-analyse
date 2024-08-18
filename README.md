@@ -30,6 +30,10 @@ Open your browser and visit "http://127.0.0.1:5000" to access the application;
 
 **Step 4:** After entering the homepage, click "Let's try it!" (as shown in Figure 1 above) to enter the analysis interface.
 
+## Test Cases Introduce
+- audio_[1,2,3]: The audio of people talking;
+- sine_wave_[1,2]: Sine wave signal.
+
 ## A few notes
 <img width="478" alt="Snipaste_2024-07-13_20-01-21" src="https://github.com/user-attachments/assets/d31abd3c-bc28-4e07-8341-2c79ed45ce0e">
 
