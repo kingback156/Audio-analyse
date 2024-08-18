@@ -24,7 +24,7 @@ pip install -r requirements.txt
 ```
 **Step 3:** Then, start the program with the following command：
 ```
-python app.py
+python main.py
 ```
 Open your browser and visit "http://127.0.0.1:5000" to access the application;
 
