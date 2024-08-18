@@ -1,6 +1,6 @@
 # Audio-analyse
 ## Description
-This project is a web application for performing amplitude analysis on audio files. It uses Flask as the web server and Dash for the interactive data visualization components. The application allows users to upload audio files, visualize their amplitude, select regions for DFT (Discrete Fourier Transform) analysis, and view inverse DFT (IDFT) plots. This project is a web application for visualizing audio spectrograms. The application allows users to upload audio files, view their spectrograms, and interact with features such as moving a line in sync with audio playback, and generating spectrograms for these clipped segments. Users can also play back both the original and clipped audio directly within the application.
+This project contains two demos. This first demo is a web application for performing amplitude analysis on audio files. It uses Flask as the web server and Dash for the interactive data visualization components. The application allows users to upload audio files, visualize their amplitude, select regions for DFT (Discrete Fourier Transform) analysis, and view inverse DFT (IDFT) plots. This second demo is a web application for visualizing audio spectrograms. The application allows users to upload audio files, view their spectrograms, and interact with features such as moving a line in sync with audio playback, and generating spectrograms for these clipped segments. Users can also play back both the original and clipped audio directly within the application.
 
 <table>
   <tr>
